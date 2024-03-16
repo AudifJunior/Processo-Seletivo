@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cad. Produtos</title>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="https://s1.webmaissistemas.com.br/system/lib-np/img/favicon.ico">
+</head>
+<body>
+<div class="container">
+  <h1>Cadastro de Produtos</h1>
+  <form id="produto-form">
+    <div class="form-group">
+      <label for="codigo">Código do Produto:</label>
+      <input type="text" id="codigo">
+    </div>
+    
+    <div class="form-group">
+      <label for="altura">Altura:</label>
+      <input type="text" id="altura" required>
+    </div>
+    
+    <div class="form-group">
+      <label for="largura">Largura:</label>
+      <input type="text" id="largura" required>
+    </div>
+    
+    <div class="form-group">
+      <label for="profundidade">Profundidade:</label>
+      <input type="text" id="profundidade" required>
+    </div>
+    
+    <div class="form-group">
+      <label for="comentario">Comentário:</label>
+      <textarea id="comentario" rows="4"></textarea>
+    </div>
+    
+    <button type="submit">Cadastrar Produto</button>
+  </form>
+
+
+  <div id="lista-produtos"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

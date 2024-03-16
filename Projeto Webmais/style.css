@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+
+}
+
+h1 {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+textarea {
+  width: calc(100% - 22px); /* ajuste para considerar o padding */
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 5px; /* adicionando um pequeno espaçamento entre os campos */
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  width: 100%; /* botão agora ocupa toda a largura do seu container */
+  padding: 10px 0; /* ajustando o padding para que o botão fique mais alto */
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #449D44;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #398439;
+}
+
+#lista-produtos {
+  margin-top: 20px;
+}
+
+.produto {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.produto h3 {
+  margin-top: 0;
+}
+
+.produto p {
+  margin-bottom: 10px;
+}
+
+.produto ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.produto ul li {
+  margin-bottom: 5px;
+}
